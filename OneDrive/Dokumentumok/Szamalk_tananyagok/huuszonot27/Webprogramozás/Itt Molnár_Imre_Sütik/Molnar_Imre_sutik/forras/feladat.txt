@@ -1,0 +1,109 @@
+1. feladat
+HTML
+
+OK Készíts egy projektet VEZETEKNEV_KERESZTNEV_sutik néven. 
+pl.: Joo_Edvard_sutik  Ok
+Tartalmazzon egy index.html és index.css-t.
+Az index.html-be linkeld be az index.css-t és a további feladatok formázásait az index.css-ben végezd el!
+
+OK Az oldal <head> tag-jeben helyezd el a következő meta tag-eket:  OK
+name="description"
+name="keywords"
+name="author"
+
+OK Az oldal title tag-je tartalmazza a projekt nevét (VEZETEKNEV_KERESZTNEV_sutik)
+
+Az index.html body tag tartalma legyen a következő:
+    <main>
+      <header></header>
+      <section>
+        <aside>
+          <nav></nav>
+        </aside>
+        <article></article>
+      </section>
+      <footer></footer>
+    </main>
+
+2. feladat
+CSS alapok
+
+OK Készítsd el a következő formázásokat az index.css-ben.
+Minden elemre legyen igaz a következő:
+külső margó = 0
+belső margó = 0
+box-sizing: border-box
+
+OK<body>:
+A body tag háttere legyen a forras/background.png
+A háttérkép ne ismétlődjön és a példának megfelelően terüljön el a képernyőn
+Minimum magassága 100vh
+Minimum szélessége 100vw
+Belső margója legyen x tengelyen: 32px
+Belső margója legyen y tengelyen: 64px
+
+OK <main>:
+Maximum szélessége: 90vw
+Minimum magassága: calc(100vh - 128px);
+Legyen középre rendezett
+Háttérszíne fehér (#ffffff)
+Legyen lekerekítve a szélei 12px-re
+Állíts be neki a keretet 3px folytonosra és legyen fekete a színe!
+
+Importáld be az index.css-be a Schoolbell-Regular.ttf betűtípust és minden elemnek
+állítsd be az oldalon ezt a betűcsaládot
+
+OK? 3. feladat
+CSS grid
+<section>
+belső margó 32px
+
+OK Készítsd el a navigációt a mintának megfelelően
+gombok betűszíne: #8d5b1a;
+gombok háttere: #feda70;
+betűmérete: 20px
+belsőmargója: 0.5rem
+kerekítés 12px
+
+Alakítsd ki az oldal szövegezését a mintának megfelelően, Használd a szoveg.txt-t a forrásból!
+Használj gridet az oldal tartalmának rendezéséhez!
+
+Segítség:
+<h1>
+betűméret: 28px
+betű vastagság: 400
+<h2>
+betűméret: 56px
+betű vastagság: 400
+<p>
+betűméret: 24px
+max szélesség: 60ch
+betű vastagság: 400
+
+article {
+    height: fit-content;
+    max-width: 1080px;
+    margin: auto;
+    display: grid;
+}
+
+article img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+3. feladatben elkészült fejlesztéseket 
+commitold fel a következő üzenettel:
+"sütik - 3. feladat" 
+
+4. feladat 
+Alakítsd ki a táblázatot és a footert a mintának megfelelően!!!
+színek:
+#8d5b1a;
+#feda70;
+maximum szélesség 1080px
+
+
+5. feladat
+Töltsd fel gitre a projektet! és telepítsd ki a github pages-re
